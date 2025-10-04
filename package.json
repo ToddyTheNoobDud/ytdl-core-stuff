@@ -29,9 +29,6 @@
     "lib",
     "typings"
   ],
-  "scripts": {
-    "prettier": "prettier --write \"**/*.{js,json,yml,md,ts}\""
-  },
   "dependencies": {
     "http-cookie-agent": "^7.0.1",
     "https-proxy-agent": "^7.0.6",
@@ -39,7 +36,9 @@
     "miniget": "^4.2.3",
     "sax": "^1.4.1",
     "tough-cookie": "^5.1.2",
-    "undici": "^7.8.0"
+    "undici": "^7.8.0",
+    "meriyah": "latest",
+    "astring": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.15.2",
@@ -50,5 +49,8 @@
     "node": ">=20.18.1"
   },
   "license": "MIT",
-  "funding": "https://github.com/distubejs/ytdl-core?sponsor"
+  "funding": "https://github.com/distubejs/ytdl-core?sponsor",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.{js,json,yml,md,ts}\""
+  }
 }
