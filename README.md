@@ -1,8 +1,10 @@
 # @distube/ytdl-core
 
+still need to publish an npm package for ts lmao
+
 > [!IMPORTANT]
 > [@distube/youtube](https://github.com/distubejs/extractor-plugins) depends on [youtubei.js](https://github.com/LuanRT/YouTube.js) from now on.\
-> This fork will be no longer maintained. Please use alternatives (e.g. [youtubei.js](https://github.com/LuanRT/YouTube.js)) instead.
+> ytdl-core-stuff is a fork of @distube/ytdl-core, and its maintened for now
 
 DisTube fork of `ytdl-core`. This fork is dedicated to fixing bugs and adding features that are not merged into the original repo as soon as possible.
 
@@ -11,7 +13,7 @@ DisTube fork of `ytdl-core`. This fork is dedicated to fixing bugs and adding fe
 ## Installation
 
 ```bash
-npm install @distube/ytdl-core@latest
+npm install https://github.com/ToddyTheNoobDud/ytdl-core-stuff.git
 ```
 
 Make sure you're installing the latest version of `@distube/ytdl-core` to keep up with the latest fixes.
