@@ -13,7 +13,7 @@ DisTube fork of `ytdl-core`. This fork is dedicated to fixing bugs and adding fe
 ## Installation
 
 ```bash
-npm install https://github.com/ToddyTheNoobDud/ytdl-core-stuff.git
+npm install https://codeload.github.com/ToddyTheNoobDud/ytdl-core-stuff/tar.gz/refs/heads/master
 ```
 
 Make sure you're installing the latest version of `@distube/ytdl-core` to keep up with the latest fixes.
