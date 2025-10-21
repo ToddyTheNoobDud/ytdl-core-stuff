@@ -30,20 +30,20 @@
     "typings"
   ],
   "dependencies": {
-    "http-cookie-agent": "^7.0.1",
+    "astring": "^1.9.0",
+    "http-cookie-agent": "^7.0.2",
     "https-proxy-agent": "^7.0.6",
     "m3u8stream": "^0.8.6",
+    "meriyah": "^6.1.4",
     "miniget": "^4.2.3",
     "sax": "^1.4.1",
-    "tough-cookie": "^5.1.2",
-    "undici": "^7.8.0",
-    "meriyah": "latest",
-    "astring": "latest"
+    "tough-cookie": "^6.0.0",
+    "undici": "^7.16.0"
   },
   "devDependencies": {
-    "@types/node": "^22.15.2",
-    "prettier": "^3.5.3",
-    "typescript": "^5.8.3"
+    "@types/node": "^24.9.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": ">=20.18.1"
