@@ -792,7 +792,8 @@ declare module "@distube/ytdl-core" {
     }
 
     interface MoreVideoDetails
-      extends Omit<VideoDetails, "author" | "thumbnail" | "shortDescription">,
+      extends
+        Omit<VideoDetails, "author" | "thumbnail" | "shortDescription">,
         Omit<MicroformatRenderer, "title" | "description"> {
       published: number;
       video_url: string;

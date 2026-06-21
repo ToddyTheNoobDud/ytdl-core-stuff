@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.9.1",
+    "esbuild": "^0.28.1",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3"
   },
@@ -51,6 +52,8 @@
   "license": "MIT",
   "funding": "https://github.com/distubejs/ytdl-core?sponsor",
   "scripts": {
+    "build:ejs": "esbuild ejs/src/yt/solver/solvers.ts --bundle --platform=node --format=cjs --outfile=lib/ejs-solvers.js --external:meriyah --external:astring",
+    "prepare": "pnpm run build:ejs",
     "prettier": "prettier --write \"**/*.{js,json,yml,md,ts}\""
   }
 }
